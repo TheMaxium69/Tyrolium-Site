@@ -1,0 +1,140 @@
+body{
+
+}
+
+/******************************
+        CLASSES GLOBALES
+******************************/
+.btn {
+    background-color: rgb(255, 255, 255);
+}
+.btn:hover {
+    background-color: rgb(193, 193, 193);
+}
+
+.icon{
+    width: 15px;
+}
+
+.container {
+    max-width: 1060px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/******************************
+        NAVBAR
+******************************/
+nav{
+    background-color: #131313;
+}
+
+nav a.navbar-brand{
+    color: white;
+    font-size: 30px;
+}
+
+
+main #fitclub {
+    background-image: linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0.2) 50%,
+            black 50%
+    ),
+    url("http://tyrolium.fr/Contenu/Image/Background4.png");
+    background-size: cover;
+    background-position: center 35%;
+    color: white;
+    padding: 50px 0 80px;
+}
+
+
+/******************************
+        ACCEUIL
+******************************/
+main #fitclub div {
+    display: flex;
+    justify-content: flex-end;
+}
+main #fitclub article {
+    width: 40%;
+}
+main #fitclub article h2 {
+    margin-left: -80px;
+    text-decoration: underline;
+}
+main #fitclub article p {
+    margin-bottom: 40px;
+}
+
+@media (max-width: 767px) {
+    .container {
+        width: 90%;
+    }
+
+    main #fitclub {
+        background: black;
+        padding: 80px;
+    }
+    main #fitclub article {
+        width: 100%;
+    }
+    main #fitclub article h2 {
+        margin-left: 0;
+    }
+}
+/******************************
+        CAPITAL
+******************************/
+#team {
+    text-align: center;
+    border: 2px solid #131313;
+    padding: 30px 20px 0;
+    background-color: #131313;
+    color: white;
+}
+
+#team ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+#team ul li {
+    background-color: #151515;
+    box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.3);
+    width: 30%;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+#team ul li h3 {
+    margin-bottom: 0;
+}
+#team ul li img.logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: center top;
+}
+
+#team ul li img:hover {
+    border-radius: 5%;
+}
+
+@media (max-width: 767px) {
+
+    #team ul li {
+        width: 45%;
+    }
+}
+
+@media (max-width: 500px) {
+    #team ul li {
+        width: 100%;
+    }
+}
+
+
+
