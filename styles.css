@@ -223,6 +223,13 @@ main #accueil article p {
     #credit {
         background: #282828;
     }
+
+    #credit article h3 {
+        margin-left: 20px;
+    }
+    #credit article p {
+        margin-left: 60px;
+    }
 }
 
 
