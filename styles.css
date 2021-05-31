@@ -29,6 +29,11 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+@media (max-width: 767px) {
+    .container {
+        width: 90%;
+    }
+}
 
 /******************************
         NAVBAR
@@ -42,8 +47,11 @@ nav a.navbar-brand{
     font-size: 30px;
 }
 
+/******************************
+        ACCEUIL
+******************************/
 
-main #fitclub {
+main #accueil {
     background-image: linear-gradient(
             to right,
             rgba(0, 0, 0, 0.2) 50%,
@@ -55,47 +63,39 @@ main #fitclub {
     color: white;
     padding: 50px 0 80px;
 }
-
-
-/******************************
-        ACCEUIL
-******************************/
-main #fitclub div {
+main #accueil div {
     display: flex;
     justify-content: flex-end;
 }
-main #fitclub article {
+main #accueil article {
     width: 40%;
 }
-main #fitclub article h2 {
+main #accueil article h2 {
     margin-left: -80px;
     text-decoration: underline;
 }
-main #fitclub article p {
+main #accueil article p {
     margin-bottom: 40px;
 }
 
 @media (max-width: 767px) {
-    .container {
-        width: 90%;
-    }
 
-    main #fitclub {
+    main #accueil {
         background: #282828;
         color: white;
         padding: 80px;
     }
-    main #fitclub article {
+    main #accueil article {
         width: 100%;
     }
-    main #fitclub article h2 {
+    main #accueil article h2 {
         margin-left: 0;
     }
 }
 /******************************
         CAPITAL
 ******************************/
-#team {
+#projet {
     text-align: center;
     border: 2px solid #131313;
     padding: 30px 20px 0;
@@ -103,24 +103,24 @@ main #fitclub article p {
     color: white;
 }
 
-#team ul {
+#projet ul {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 50px;
 }
 
-#team ul li {
+#projet ul li {
     background-color: #151515;
     box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.3);
     width: 30%;
     margin-bottom: 30px;
     padding-bottom: 10px;
 }
-#team ul li h3 {
+#projet ul li h3 {
     margin-bottom: 0;
 }
-#team ul li img.logo {
+#projet ul li img.logo {
     width: 200px;
     height: 200px;
     border-radius: 100%;
@@ -128,24 +128,35 @@ main #fitclub article p {
     object-position: center top;
 }
 
-#team ul li img:hover {
+#projet ul li img:hover {
     border-radius: 5%;
 }
 
 @media (max-width: 767px) {
 
-    #team ul li {
+    #projet ul li {
         width: 45%;
     }
 }
 
 @media (max-width: 500px) {
-    #team ul li {
+    #projet ul li {
         width: 100%;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
 /******************************
-        CAPITAL
+        FOOTER
 ******************************/
 
 footer {
@@ -225,8 +236,11 @@ footer ul li h3 {
     text-transform: uppercase;
     font-size: 13px;
 }
+footer ul li div p#mail {
+    max-width: 10px;
+}
 
-@media (max-width: 767px) {
+@media (max-width: 955px) {
 
     footer > div > * {
         width: 100%;
