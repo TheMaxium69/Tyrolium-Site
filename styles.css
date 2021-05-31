@@ -1,5 +1,6 @@
 body{
     background-color: #131313;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 /******************************
@@ -7,9 +8,12 @@ body{
 ******************************/
 .btn {
     background-color: rgb(255, 255, 255);
+    color: black;
+    margin-top: 10px;
 }
 .btn:hover {
     background-color: rgb(193, 193, 193);
+    color: black;
 }
 
 .btnSub {
@@ -21,7 +25,11 @@ body{
 }
 
 .icon{
-    width: 15px;
+    width: 20px;
+}
+.iconFooter{
+    width: 30px;
+    height: 30px;
 }
 
 .container {
@@ -81,7 +89,12 @@ main #accueil article p {
 @media (max-width: 767px) {
 
     main #accueil {
-        background: #282828;
+        background-image: linear-gradient(
+                to right,
+                #282828 90%,
+                rgba(0, 0, 0, 0.2) 10%
+        ),
+        url("http://tyrolium.fr/Contenu/Image/Background4.png");
         color: white;
         padding: 80px;
     }
@@ -90,6 +103,12 @@ main #accueil article p {
     }
     main #accueil article h2 {
         margin-left: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    main #accueil {
+        background: #282828;
     }
 }
 /******************************
@@ -142,6 +161,67 @@ main #accueil article p {
 @media (max-width: 500px) {
     #projet ul li {
         width: 100%;
+    }
+}
+
+
+/******************************
+        credit
+******************************/
+
+#credit {
+    background-image: linear-gradient(
+            to right,
+            black 30%,
+            rgba(0, 0, 0, 0.2) 50%
+    ),
+    url("http://tyrolium.fr/Contenu/Image/Background2.png");
+    background-size: cover;
+    background-position: center 35%;
+    color: white;
+    padding: 50px 0 80px;
+}
+#credit div {
+    display: flex;
+    justify-content: flex-start;
+}
+#credit article {
+    width: 40%;
+}
+#credit article h2 {
+    margin-left: 160px;
+    text-transform : uppercase;
+    text-decoration: underline;
+}
+#credit article h3 {
+    margin-left: 80px;
+}
+#credit article p {
+    margin-left: 100px;
+}
+
+@media (max-width: 767px) {
+    #credit {
+        background-image: linear-gradient(
+                to right,
+                #282828 90%,
+                rgba(0, 0, 0, 0.2) 10%
+        ),
+        url("http://tyrolium.fr/Contenu/Image/Background2.png");
+        color: white;
+        padding: 80px;
+    }
+    #credit article {
+        width: 100%;
+    }
+    #credit article h2 {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 564px) {
+    #credit {
+        background: #282828;
     }
 }
 
@@ -240,7 +320,7 @@ footer ul li div p#mail {
     max-width: 10px;
 }
 
-@media (max-width: 955px) {
+@media (max-width: 993px) {
 
     footer > div > * {
         width: 100%;
@@ -252,7 +332,7 @@ footer ul li div p#mail {
     }
 
     footer form {
-        margin-top: 0px;
+        margin-top: -80px;
     }
 
     footer form {
