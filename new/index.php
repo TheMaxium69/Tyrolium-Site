@@ -1,3 +1,6 @@
+<?php
+include "/home/tyroliumfg/DB-tyroliumfguser.php";
+?>
 <!doctype html>
 <html lang="fr">
 <head>
@@ -13,7 +16,7 @@
             <link rel="stylesheet" href="http://tyrolium.fr/Contenu/Css/Tyrolium/all.css">
             <link rel="stylesheet" href="http://tyrolium.fr/Contenu/Css/Tyrolium/normalize.css">
             <link rel="stylesheet" href="http://tyrolium.fr/Contenu/Css/Tyrolium/base.css">
-            <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+            <link rel="stylesheet" type="text/css" media="screen" href="styles.css">
 </head>
 <body>
     <header>
@@ -21,7 +24,7 @@
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="http://tyrolium.fr/Contenu/Image/Tyrolium Site.png" alt="TyroliumLogo" width="40px" class="d-inline-block align-text-top">
-                    Tyrolium [SITE EN DEV]
+                    Tyrolium
                 </a>
             </div>
         </nav>
@@ -43,7 +46,7 @@
             <p>Les projets sont créés avec une passion commune au sein de l'entreprise nous souhaitons toujours proposer le meilleur.</p>
             <ul>
                 <li>
-                    <img class="logo" src="http://tyrolium.fr/Contenu/Image/Tyrolium ServerMC.png" alt="TyroservLogo">
+                    <img class="logo" src="http://tyrolium.fr/Contenu/Image/Tyrolium ServerMC S2.png" alt="TyroservLogo">
                     <h3>TyroServ</h3>
                     <small>Serveur moddé sur le jeu Minecraft.</small><br>
                     <a href="http://tyroserv.fr/" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/> Allez sur le site</a>
@@ -59,14 +62,14 @@
                     <h3>Wonderlium</h3>
                     <small>Collectif réalisant des vidéos sur l'univers geek.</small><br>
                     <a href="https://www.youtube.com/channel/UC8tEUehEz2p53Pw8wSky3TQ" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/youtube.png" alt="youtube"/> Allez sur notre chaine</a>
-                    <a href="http://tyrolium.fr/Wonderlium" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/></a>
+                    <a href="http://site.wonderlium.yt" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/></a>
                     <a href="https://www.instagram.com/wonderlium/" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/></a>
                     <a href="https://discord.gg/km8h5jHezt" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/></a>
                 </li>
                 <li>
                     <img class="logo" src="http://tyrolium.fr/Contenu/Image/Gamenium.png" alt="GameniumLogo">
                     <h3>Gamenium</h3>
-                    <small>Site d'actualité et de critique de jeux-vidéo.</small><br>
+                    <small>Site d'actualité et de critique de jeux-vidéos.</small><br>
                     <a href="https://discord.gg/km8h5jHezt" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/> Allez sur notre discord</a>
                     <a href="https://www.instagram.com/gamenium/" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/></a>
                 </li>
@@ -85,30 +88,9 @@
                 </li>
 
                 <li>
-                    <img class="logo" src="https://media.discordapp.net/attachments/446049284694081546/848909004558172180/unknown.png   " alt="FreeniumLogo">
+                    <img class="logo" src="https://media.discordapp.net/attachments/446049284694081546/848909004558172180/unknown.png" alt="ShopLogo">
                     <h3>Shop</h3>
-                    <small>Notre Boutique avec des collection fait par nos graphisme.</small><br>
-                    <a href="https://discord.gg/km8h5jHezt" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/> Allez sur notre discord</a>
-                </li>
-
-                <li>
-                    <img class="logo" src="http://tyrolium.fr/Contenu/Image/Freenium.png" alt="FreeniumLogo">
-                    <h3>Shop</h3>
-                    <small>Notre Boutique avec des collection fait par nos graphisme.</small><br>
-                    <a href="http://shop.tyrolium.fr/" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/> Allez sur le site</a>
-                    <a href="https://discord.gg/km8h5jHezt" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/></a>
-                </li>
-                <li>
-                    <img class="logo" src="http://tyrolium.fr/Contenu/Image/Freenium.png" alt="FreeniumLogo">
-                    <h3>Shop</h3>
-                    <small>Notre Boutique avec des collection fait par nos graphisme.</small><br>
-                    <a href="http://shop.tyrolium.fr/" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/> Allez sur le site</a>
-                    <a href="https://discord.gg/km8h5jHezt" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/></a>
-                </li>
-                <li>
-                    <img class="logo" src="http://tyrolium.fr/Contenu/Image/Freenium.png" alt="FreeniumLogo">
-                    <h3>Shop</h3>
-                    <small>Notre Boutique avec des collection fait par nos graphisme.</small><br>
+                    <small>Notre boutique avec des collections faites par nos graphistes.</small><br>
                     <a href="http://shop.tyrolium.fr/" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/> Allez sur le site</a>
                     <a href="https://discord.gg/km8h5jHezt" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/></a>
                 </li>
@@ -125,10 +107,19 @@
                     <br>
                     <h3>Membres</h3>
                     <br>
-                    <p>Norman Jorge De Freitas</p>
-                    <p>Dylan Argentino</p>
-                    <p>Wassim</p>
-                    <p>Maewan</p>
+                    <?php
+					    $reqMembre = "SELECT * FROM membre";
+
+					    $resMembre = mysqli_query($ConnectDB, $reqMembre);
+
+					    foreach ($resMembre as $key => $value) {
+					?>
+
+					    <p><?php echo $value['name']; ?></p>
+
+					<?php
+					    }
+					?>
                 </article>
             </div>
         </section>
@@ -149,12 +140,28 @@
                 <a href="https://www.google.com/maps/place/Tyrolium/@45.7579341,4.7650812,12z/data=!3m1!4b1!4m5!3m4!1s0x47f4c773107f0ffd:0x645f65cd189abc30!8m2!3d45.7579555!4d4.8351209" target="_blank"><img class="iconFooter" src="http://tyrolium.fr/Contenu/Image/icone/mapsWhite.png" alt="maps"/></a>
                 <a href="https://paypal.me/tyroliument" target="_blank"><img class="iconFooter" src="http://tyrolium.fr/Contenu/Image/icone/paypalWhite.png" alt="paypal"/></a>
             </article>
-            <form action="">
+            <form method="post"a action="">
                 <h2>Nous contacter</h2>
                 <p>Laissez nous votre nom et votre mail et on vous recontactera rapidement.</p>
-                <input type="text" placeholder="Nom">
-                <input type="email" placeholder="Email">
-                <input type="submit" value="Envoyer" class="btnSub">
+                <input type="text" name="name" id="name" placeholder="Nom">
+                <input type="email" name="email" id="email" placeholder="Email">
+                <input type="submit" name="formsend" id="formsend" value="Envoyer" class="btnSub">
+
+            <?php
+									if(isset($_POST['formsend'])){
+										extract($_POST);
+
+											if(!empty($name) && !empty($email)){
+															$q = $db->prepare("INSERT INTO `contact` (name,email) VALUES(:name,:email)");
+															$q->execute([
+																'name' => $name,
+																'email' => $email
+															]);
+															echo "Nous avons bien enregistré vos données.";
+
+											}
+									}
+								?>
             </form>
             <ul>
                 <li>
@@ -175,7 +182,7 @@
                     <span class="material-icons">mail</span>
                     <div>
                         <h3>Mail</h3>
-                        <p id="mail">maxime.tournier@tyrolium.fr<br>tyrolium.staff@gmail.com</p>
+                        <p id="mail">officiel@tyrolium.fr<br>maxime.tournier@tyrolium.fr</p>
                     </div>
                 </li>
             </ul>
