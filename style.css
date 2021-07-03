@@ -80,7 +80,6 @@ main #accueil article {
 }
 main #accueil article h2 {
     margin-left: -80px;
-    text-decoration: underline;
 }
 main #accueil article p {
     margin-bottom: 40px;
@@ -130,7 +129,28 @@ main #accueil article p {
     flex-wrap: wrap;
     margin-top: 50px;
 }
+#projet ul li#start{
+    background: linear-gradient(
+            to right,
+            #151515 30%,
+            rgba(0, 0, 0, 0.2) 50%
+    ),
+    url("https://cdn.discordapp.com/attachments/853589280299679765/860703730697633822/istockphoto-1218639733-612x612.jpg");
+    background-size: cover;
+    background-position: center 35%;
+    width: 100%;
+    padding-right: 50%;
+    
+}
+#projet ul li#start p#notgras{
+    font-weight: normal;
+}
 
+#projet ul li p{
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
 #projet ul li {
     background-color: #151515;
     box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.3);
@@ -141,9 +161,15 @@ main #accueil article p {
 #projet ul li h3 {
     margin-bottom: 0;
 }
+#projet ul li#start a.btn:first-of-type {
+    width: 70%;
+}
+#projet ul li#start a.btn {
+    width: 10%;
+}     
 #projet ul li a.btn:first-of-type {
-        width: 90%;
-    }
+    width: 90%;
+}
 #projet ul li img.logo {
     width: 200px;
     height: 200px;
@@ -158,14 +184,18 @@ main #accueil article p {
 
 @media (max-width: 767px) {
 
-    #projet ul li {
-        width: 45%;
+    #projet ul li#start {
+        background: #151515;
+        width: 100%;
+        padding-right: 0%;
     }
-}
 
-@media (max-width: 500px) {
     #projet ul li {
         width: 100%;
+    }
+        
+    #projet ul li a.btn:first-of-type {
+        width: 60%;
     }
 }
 
