@@ -288,6 +288,24 @@ main #recrut {
     padding: 30px 20px 0;
     background-color: #131313;
     color: white;
+    padding-bottom: 40px;
+}
+main #recrut button {
+    padding-right: 25px;
+    padding-left: 20px;
+    padding-bottom: 0px;
+    padding-top: 5px;
+}
+main #recrut button p{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+#recrut span{
+    margin: 0;
+    padding: 0;
+    height: 29.75px;
 }
 
 /******************************
