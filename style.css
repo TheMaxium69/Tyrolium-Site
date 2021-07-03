@@ -79,7 +79,7 @@ main #accueil article {
     width: 40%;
 }
 main #accueil article h2 {
-    margin-left: -80px;
+    margin-left: -70px;
 }
 main #accueil article p {
     margin-bottom: 40px;
@@ -90,7 +90,7 @@ main #accueil article p {
         background-image: linear-gradient(
                 to right,
                 #282828 90%,
-                rgba(0, 0, 0, 0.2) 10%
+                rgba(0, 0, 0, 0.2) 9%
         ),
         url("http://tyrolium.fr/Contenu/Image/Background4.png");
         color: white;
@@ -105,11 +105,18 @@ main #accueil article p {
     main #accueil article h2 {
         margin-left: 0;
     }
+    
+    main #accueil article p {
+        margin-right: 40px;
+    }
 }
 
 @media (max-width: 500px) {
     main #accueil {
         background: #282828;
+    }
+    main #accueil article p {
+        margin-left: 20px;
     }
 }
 /******************************
@@ -182,13 +189,7 @@ main #accueil article p {
     border-radius: 5%;
 }
 
-@media (max-width: 767px) {
-
-    #projet ul li#start {
-        background: #151515;
-        width: 100%;
-        padding-right: 0%;
-    }
+@media (max-width: 1056px) {
 
     #projet ul li {
         width: 100%;
@@ -199,6 +200,14 @@ main #accueil article p {
     }
 }
 
+@media (max-width: 800px) {
+
+    #projet ul li#start {
+        background: #151515;
+        width: 100%;
+        padding-right: 0%;
+    }
+}
 
 /******************************
         credit
