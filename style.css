@@ -142,8 +142,8 @@ main #accueil article p {
     margin-bottom: 0;
 }
 #projet ul li a.btn:first-of-type {
-    width: 90%;
-}
+        width: 90%;
+    }
 #projet ul li img.logo {
     width: 200px;
     height: 200px;
@@ -169,11 +169,6 @@ main #accueil article p {
     }
 }
 
-@media (max-width: 448px) {
-    #projet ul li a.btn:first-of-type {
-        width: 90%;
-    }
-}
 
 /******************************
         credit
@@ -339,7 +334,7 @@ footer ul li div p#mail {
     }
 
     footer form {
-        margin-top: -80px;
+        margin-top: 10px;
     }
 
     footer form {
