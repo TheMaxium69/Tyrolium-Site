@@ -207,6 +207,87 @@ main #accueil article p {
         width: 100%;
         padding-right: 0%;
     }
+    
+    #projet ul li#start a.btn {
+        width: unset;
+    }    
+}
+
+/******************************
+        website
+******************************/
+
+main #website {
+    background-image: linear-gradient(
+            to left,
+            black 60%,
+            rgba(0, 0, 0, 0.2) 40%
+    ),
+    url("https://cdn.discordapp.com/attachments/853589280299679765/860767122640994322/unknown.png");
+    background-size: cover;
+    background-position: center 35%;
+    color: white;
+    padding: 50px 0 80px;
+}
+main #website div {
+    display: flex;
+    justify-content: flex-end;
+}
+main #website article {
+    width: 50%;
+}
+main #website article h2 {
+    margin-left: -70px;
+}
+main #website article p {
+    margin-bottom: 40px;
+}
+
+@media (max-width: 767px) {
+    main #website {
+        background-image: linear-gradient(
+                to right,
+                #282828 90%,
+                rgba(0, 0, 0, 0.2) 9%
+        ),
+        url("http://tyrolium.fr/Contenu/Image/Background4.png");
+        color: white;
+        padding-top: 30px;
+        padding-bottom: 5px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    main #website article {
+        width: 100%;
+    }
+    main #website article h2 {
+        margin-left: 0;
+    }
+    
+    main #website article p {
+        margin-right: 40px;
+    }
+}
+
+@media (max-width: 500px) {
+    main #website {
+        background: #282828;
+    }
+    main #website article p {
+        margin-left: 20px;
+    }
+}
+
+
+/******************************
+        recrutement
+******************************/
+main #recrut {
+    text-align: center;
+    border: 2px solid #131313;
+    padding: 30px 20px 0;
+    background-color: #131313;
+    color: white;
 }
 
 /******************************
