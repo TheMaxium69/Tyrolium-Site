@@ -54,6 +54,13 @@ nav a.navbar-brand{
     color: white;
     font-size: 30px;
 }
+nav a.navbar-brand span{
+    font-size: 20px;
+}
+
+nav span img#emote{
+    width: 25px;
+}
 
 /******************************
         ACCEUIL
