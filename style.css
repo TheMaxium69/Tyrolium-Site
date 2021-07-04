@@ -114,7 +114,9 @@ main #accueil article p {
     }
     
     main #accueil article p {
-        margin-right: 40px;
+        margin-left: 0px;
+        margin-right: 30px;
+        margin-bottom: 20px;
     }
 }
 
@@ -123,7 +125,8 @@ main #accueil article p {
         background: #282828;
     }
     main #accueil article p {
-        margin-left: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 }
 /******************************
