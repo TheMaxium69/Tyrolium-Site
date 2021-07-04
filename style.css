@@ -276,7 +276,11 @@ main #website article p {
         padding: 30px 0 30px;
     }
     main #website article p {
-        margin-left: 20px;
+        margin-left: 0px;
+    }
+    
+    main #website article {
+        margin-left: 0%;
     }
 }
 
@@ -350,9 +354,9 @@ main #recrut button p{
         
 }
 
-@media (max-width: 594px) {
-    #recrut ul li {
-        width: 100%;
+@media (max-width: 767px) {
+    #recrut {
+        display: none;
     }
 }
 
@@ -395,7 +399,7 @@ main #recrut button p{
     #credit {
         background-image: linear-gradient(
                 to right,
-                #282828 90%,
+                #151515 90%,
                 rgba(0, 0, 0, 0.2) 10%
         ),
         url("http://tyrolium.fr/Contenu/Image/Background2.png");
@@ -412,7 +416,7 @@ main #recrut button p{
 
 @media (max-width: 564px) {
     #credit {
-        background: #282828;
+        background: #151515;
     }
 
     #credit article h3 {
