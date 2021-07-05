@@ -358,9 +358,10 @@ main #recrut button p{
 }
 
 @media (max-width: 767px) {
-    #recrut {
-        display: none;
+    #recrut ul li {
+        width: 100%;
     }
+
 }
 
 
