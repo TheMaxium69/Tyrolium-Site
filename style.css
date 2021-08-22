@@ -148,7 +148,7 @@ main #accueil article p {
 }
 #projet ul li#start{
     background: linear-gradient(
-            to right,
+            to left,
             #151515 30%,
             rgba(0, 0, 0, 0.2) 50%
     ),
@@ -156,7 +156,7 @@ main #accueil article p {
     background-size: cover;
     background-position: center 35%;
     width: 100%;
-    padding-right: 50%;
+    padding-left: 50%;
     
 }
 #projet ul li#start p#notgras{
