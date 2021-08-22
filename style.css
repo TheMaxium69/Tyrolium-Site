@@ -239,7 +239,7 @@ main #website {
     color: white;
     padding: 50px 0 80px;
 }
-main #website div {
+main #website div.container {
     display: flex;
     justify-content: flex-end;
 }
@@ -251,6 +251,15 @@ main #website article h2 {
 }
 main #website article p {
     margin-bottom: 10px;
+}
+
+#website article div.titleService{
+    text-align: center;
+}
+
+#website span{
+    height: 29.75px;
+    width: 7%;
 }
 
 @media (max-width: 767px) {
