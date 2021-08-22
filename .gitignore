@@ -4,6 +4,7 @@ bin-release/
 old/
 [Oo]bj/
 [Bb]in/
+.idea/
 
 # Other files and folders
 .settings/

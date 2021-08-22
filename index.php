@@ -6,25 +6,25 @@ include "/home/tyroliumfg/DB-tyroliumfguser.php";
 <head>
     <meta charset="utf-8">
         <title>Tyrolium Site</title>
-            <link href="../Contenu/Image/Tyrolium Site.png" rel="shortcut icon">
+            <link href="https://tyrolium.fr/Contenu/Image/Tyrolium Site.png" rel="shortcut icon">
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
             <link rel="preconnect" href="https://fonts.gstatic.com">
             <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
             <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
             <link href="https://fonts.googleapis.com/css2?family=Oxanium&display=swap" rel="stylesheet">
-            <link rel="stylesheet" href="../Contenu/Css/Tyrolium/all.css">
-            <link rel="stylesheet" href="../Contenu/Css/Tyrolium/normalize.css">
-            <link rel="stylesheet" href="../Contenu/Css/Tyrolium/base.css">
-            <link rel="stylesheet" type="text/css" media="screen" href="../Contenu/Css/Tyrolium/styles.css">
+            <link rel="stylesheet" href="https://tyrolium.fr/Contenu/Css/Tyrolium/all.css">
+            <link rel="stylesheet" href="https://tyrolium.fr/Contenu/Css/Tyrolium/normalize.css">
+            <link rel="stylesheet" href="https://tyrolium.fr/Contenu/Css/Tyrolium/base.css">
+            <link rel="stylesheet" type="text/css" media="screen" href="https://tyrolium.fr/Contenu/Css/Tyrolium/styles.css">
 </head>
 <body>
     <header>
         <nav class="navbar">
             <div class="container-fluid">
                 <a class="navbar-brand" href="">
-                    <img src="../Contenu/Image/Tyrolium Site.png" alt="TyroliumLogo" width="40px" class="d-inline-block align-text-top">
-                    Tyrolium <!--<span class="badge bg-warning">4 ans déjà <img id="emote" src="https://tyrolium.fr/Contenu/Image/icone/emote.png" alt="emoteAniv"></span>-->
+                    <img src="http://tyrolium.fr/Contenu/Image/Tyrolium Site.png" alt="TyroliumLogo" width="40px" class="d-inline-block align-text-top">
+                    Tyrolium <!-- <span class="badge bg-warning">4 ans déjà <img id="emote" src="https://tyrolium.fr/Contenu/Image/icone/emote.png" alt="emoteAniv"></span> -->
                 </a>
             </div>
         </nav>
@@ -61,7 +61,7 @@ include "/home/tyroliumfg/DB-tyroliumfguser.php";
                     <a href="https://www.instagram.com/tyroliumserver/" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/></a>
                     <a href="https://twitter.com/tyrolium" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/twitter.png" alt="twitter"/></a>
                     <a href="https://www.youtube.com/channel/UCZTbdKAcFw2xrLFjO9WpYYw" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/youtube.png" alt="youtube"/></a>
-                    <a href="https://github.com/TyroliumServerMC" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/github.png" alt="github"/></a>
+                    <a href="https://github.com/TyroServ" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/github.png" alt="github"/></a>
                     <a href="https://www.curseforge.com/minecraft/mc-mods/tyromod/" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/curse.png" alt="curseforge"/></a>
                 </li>
             </ul>
@@ -124,13 +124,21 @@ include "/home/tyroliumfg/DB-tyroliumfguser.php";
                 <article>
                     <h2>TYROLIUM VEND CES SERVICES</h2>
                     <br>
-                    <h3>Nous vous proposont de créer votre site web.</h3>
+                    <p>Après 4 ans, nous avons l'honneur de pouvoir vous proposer nos services, nous sommes une entreprise récente qui n'a pas que l'argent en bouche, nos tarifs sont asset abordable</p>
+                    <small>contact : maxime.tournier@tyrolium.fr</small>
+                    <br><hr style="background: rgb(161, 161, 161);"><br>
+                    <div class="titleService"><span class="material-icons">public</span><h3>Créations de votre site web.</h3></div>
                     <br>
-                    <p>Après 4 ans, nous avons l'honneur de pouvoir vous proposer nos services, nous pouvons créer votre site web, nous sommes une entreprise récente qui n'a pas que l'argent en bouche et nous pouvons vous faire un site à très bon prix. 
+                    <p>nous pouvons créer votre site web et nous pouvons vous faire un site à très bon prix.
                         Nos équipes sont encore en formation ou sont de jeunes diplômés en Développement, nous cherchons à monter notre structure.<br>
                         Si vous êtes intéressés par un site web professionnel à prix abordable et si vous voulez soutenir une petite structure, n'hésitez pas à nous contacter à l'adresse mail ci-dessous.</p>
                     <br>
-                    <small>contact : maxime.tournier@tyrolium.fr</small>
+
+                    <div class="titleService"><span class="material-icons">movie</span><h3>Monter et animé votre vidéo.</h3></div>
+
+                    <br>
+                    <p>Des montages de qualité beaux et dynamiques à des tarifs très bas modelables selon vos envies</p>
+                    <br>
                 </article>
             </div>
         </section>
@@ -243,7 +251,7 @@ include "/home/tyroliumfg/DB-tyroliumfguser.php";
             </ul>
         </div>
     </footer>
-<script src="../Contenu/Js/main.js"></script>
+<script src="https://tyrolium.fr/Contenu/Js/main.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
