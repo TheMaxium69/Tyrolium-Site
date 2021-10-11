@@ -162,26 +162,58 @@ include "/home/tyroliumfg/DB-tyroliumfguser.php";
         <section id="credit">
             <div class="container">
                 <article>
-                    <h2>notre équipe</h2>
-                    <br>
-                    <h3>Directeur-Fondateur</h3>
-                    <br>
-                    <p>Maxime Tournier</p>
-                    <br>
-                    <h3>Membres</h3>
-                    <br>
                     <?php
 					    $reqMembre = "SELECT * FROM membre";
 
 					    $resMembre = mysqli_query($ConnectDB, $reqMembre);
-
+                    ?>
+                    <h2>notre équipe</h2>
+                    <br>
+                    <h3>Directeur-Fondateur</h3>
+                    <br><?php
 					    foreach ($resMembre as $key => $value) {
+                            if($value['role'] == 1){ ?>
+                                <p><?php echo $value['name']; ?></p>
+                    <?php
+                        } }
 					?>
-
-					    <p><?php echo $value['name']; ?></p>
-
-					<?php
-					    }
+                    <br>
+                    <h3>Directeur-Adjoint</h3>
+                    <br><?php
+					    foreach ($resMembre as $key => $value) {
+                            if($value['role'] == 2){ ?>
+                                <p><?php echo $value['name']; ?></p>
+                    <?php
+                        } }
+					?>
+                    <br>
+                    <h3>Chef de Projet</h3>
+                    <br><?php
+					    foreach ($resMembre as $key => $value) {
+                            if($value['role'] == 3){ ?>
+                                <p><?php echo $value['name']; ?></p>
+                    <?php
+                        } }
+					?>
+                    <br>
+                    <h3>Membres</h3>
+                    <br>
+                    <?php
+					    foreach ($resMembre as $key => $value) {
+                            if($value['role'] == 4){ ?>
+                                <p><?php echo $value['name']; ?></p>
+                    <?php
+                        } }
+					?>
+                    <br>
+                    <h3>Modérateur(ice)</h3>
+                    <br>
+                    <?php
+					    foreach ($resMembre as $key => $value) {
+                            if($value['role'] == 5){ ?>
+                                <p><?php echo $value['name']; ?></p>
+                    <?php
+                        } }
 					?>
                 </article>
             </div>
