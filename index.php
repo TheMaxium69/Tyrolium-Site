@@ -17,6 +17,17 @@ include "/home/tyroliumfg/DB-tyroliumfguser.php";
             <link rel="stylesheet" href="https://tyrolium.fr/Contenu/Css/Tyrolium/normalize.css">
             <link rel="stylesheet" href="https://tyrolium.fr/Contenu/Css/Tyrolium/base.css">
             <link rel="stylesheet" type="text/css" media="screen" href="https://tyrolium.fr/Contenu/Css/Tyrolium/styles.css">
+
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-SX0VTCMSGD"></script>
+            <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-SX0VTCMSGD');
+            </script>
+
 </head>
 <body>
     <header>
@@ -63,6 +74,7 @@ include "/home/tyroliumfg/DB-tyroliumfguser.php";
                     <a href="https://www.youtube.com/channel/UCZTbdKAcFw2xrLFjO9WpYYw" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/youtube.png" alt="youtube"/></a>
                     <a href="https://github.com/TyroServ" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/github.png" alt="github"/></a>
                     <a href="https://www.curseforge.com/minecraft/mc-mods/tyromod/" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/curse.png" alt="curseforge"/></a>
+                    <a href="https://www.tiktok.com/@tyroserv?" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/tiktok.png" alt="tiktok"/></a>
                 </li>
             </ul>
             <ul>
@@ -71,22 +83,25 @@ include "/home/tyroliumfg/DB-tyroliumfguser.php";
                     <h2>Gamenium</h2>
                     <p>Site d'actualités et de critiques<br> de jeux-vidéos.</p>
                     <small>Site en cours de Développement, et il y a l'actualité<br> et les sondages disponible sur notre Discord.</small><br>
-                    <a href="https://discord.gg/km8h5jHezt" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/> Allez sur notre discord</a><br>
-                    <a href="https://www.instagram.com/gamenium/" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/></a>
+                    <a href="https://www.instagram.com/gamenium/" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/> Allez sur notre Instagram</a><br>
+                    <a href="https://discord.gg/km8h5jHezt" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/></a>
+                    <a href="https://www.tiktok.com/@gamenium?" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/tiktok.png" alt="tiktok"/></a>
+                    <a href="https://www.twitch.tv/gamenium_off" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/twitch.png" alt="twitch"/></a>
                 </li>
                 <li>
                     <img class="logo" src="https://tyrolium.fr/Contenu/Image/TyroDiscord.png" alt="TyroDiscord">
-                    <h2>TyroDiscord <span class="badge bg-primary">New</span></h2>
+                    <h2>TyroDiscord</h2>
                     <p>Projet de bot et logiciel pour<br> améliorer l'expérience de Discord.</p>
                     <small>Site en cours de Développement,<br> et information sur le projet sur Discord.</small><br>
-                    <a href="https://discord.gg/km8h5jHezt" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/> Allez sur notre discord</a><br>
+                    <a href="https://discord.gg/km8h5jHezt" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/> Allez sur notre Discord</a><br>
                 </li>
                 <li>
                     <img class="logo" src="http://tyrolium.fr/Contenu/Image/Tyrolium Studio.png" alt="StudioLogo">
                     <h2>Studio</h2>
                     <p>Projet d'un studio de développement<br> de jeux-vidéo.</p>
                     <small>En cours de rélfexion<br> et de création.</small><br>
-                    <a href="https://discord.gg/km8h5jHezt" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/> Allez sur notre discord</a><br>
+                    <a href="https://discord.gg/km8h5jHezt" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/> Allez sur notre Discord</a><br>
+                    <a href="https://www.instagram.com/tyroliumstudio/" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/></a>
                 </li>
             </ul>
             <div id="title"><h2>Projet artistique</h2></div>
@@ -102,21 +117,24 @@ include "/home/tyroliumfg/DB-tyroliumfguser.php";
                     <a href="https://discord.gg/km8h5jHezt" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/></a>
                 </li>
                 <li>
-                    <img class="logo" src="http://tyrolium.fr/Contenu/Image/Tyrolium Music.png" alt="MusicLogo">
-                    <h2>TyroMusic</h2>
+                    <img class="logo" src="https://tyrolium.fr/Contenu/Image/Selemusium.png" alt="SelemusiumLogo">
+                    <h2>Sélémusium</h2>
                     <p>Projet de création de musiques.</p>
                     <small>Des prods en création déjà disponibles sur<br> notre Discord, et un site en développement.</small><br>
-                    <a href="https://discord.gg/km8h5jHezt" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/> Allez sur notre discord</a><br>
+                    <a href="https://www.instagram.com/selemusium/" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/> Allez sur notre Instagram</a><br>
+                    <a href="https://discord.gg/km8h5jHezt" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/></a>
                 </li>
 
                 <li>
-                    <img class="logo" src="https://media.discordapp.net/attachments/446049284694081546/848909004558172180/unknown.png" alt="ShopLogo">
+                    <img class="logo" src="https://tyrolium.fr/Contenu/Image/TyroShop.png" alt="ShopLogo">
                     <h2>TyroShop</h2>
                     <p>Notre boutique avec des collections<br> faites par nos graphistes.</p>
                     <small>Une nouvelle collection en cours de création.</small><br>
                     <a href="http://shop.tyrolium.fr/" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/> Allez sur le site</a><br>
                     <a href="https://discord.gg/km8h5jHezt" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/></a>
-                </li>
+                    <a href="https://www.instagram.com/tyroliumshop/" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/></a>
+                    <a href="https://www.tiktok.com/@tyroshop?" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/tiktok.png" alt="tiktok"/></a>
+               </li>
             </ul>
         </section>
         <section id="website">
@@ -129,16 +147,30 @@ include "/home/tyroliumfg/DB-tyroliumfguser.php";
                     <br><hr style="background: rgb(161, 161, 161);"><br>
                     <div class="titleService"><span class="material-icons">public</span><h3>Créations de votre site web.</h3></div>
                     <br>
-                    <p>nous pouvons créer votre site web et nous pouvons vous faire un site à très bon prix.
+                    <p>Nous pouvons créer votre site web et nous pouvons vous faire un site à très bon prix.
                         Nos équipes sont encore en formation ou sont de jeunes diplômés en Développement, nous cherchons à monter notre structure.<br>
                         Si vous êtes intéressés par un site web professionnel à prix abordable et si vous voulez soutenir une petite structure, n'hésitez pas à nous contacter à l'adresse mail ci-dessous.</p>
                     <br>
 
-                    <div class="titleService"><span class="material-icons">movie</span><h3>Monter et animé votre vidéo.</h3></div>
+                    <div class="titleService"><span class="material-icons">dns</span><h3>Configuration et Conseil de votre serveur.</h3></div>
+                    <br>
+                    <p>Nous configurons votre serveur pour pouvoir héberger en ligne votre site web, vos applications, vos bots ou même vos serveurs de jeux vidéos.<br>
+                        Mais nous vous conseillerons aussi sur les différents moyens d'hébergement et les différentes caractéristiques de serveurs.</p>
+                    <br>
+
+                    <!-- <div class="titleService"><span class="material-icons">movie</span><h3>Monter et Animer votre vidéo.</h3></div>
 
                     <br>
                     <p>Des montages de qualité beaux et dynamiques à des tarifs très bas modelables selon vos envies</p>
                     <br>
+
+                    <div class="titleService"><span class="material-icons">audiotrack</span><h3>Composer votre musique.</h3></div>
+ 
+                    <br>
+                    <p>Nous pouvons créer vos productions musicales à très bons prix, nous sommes aptes à faire beaucoup de styles différents, de la pop en passant par la trap et le hip hop.
+                        Si vous êtes intéressés vous pouvez nous contacter et nous discuterons de vos envies, nous pouvons aussi vous conseiller sur vos productions musicales.</p>
+                    <br>
+                    <br> -->
                 </article>
             </div>
         </section>
@@ -150,7 +182,7 @@ include "/home/tyroliumfg/DB-tyroliumfguser.php";
                 <p>Tyrolium recrute des membres passionnés par notre travail, nous n'avons pas spécialement de critères de sélection si ce n'est la compréhension de notre travail et l'investissement au sein de celui-ci ou d'un projet.</p>
                 <button id="desactive" class="btn" onclick="myFunction()">
                     <div class="row">
-                    <span class="material-icons">expand_more</span>
+                    <span class="material-icons js">expand_more</span>
                     <p id="btn">Afficher les formulaires de recrutement</p>
                     </div>
                 </button>
@@ -162,60 +194,52 @@ include "/home/tyroliumfg/DB-tyroliumfguser.php";
         <section id="credit">
             <div class="container">
                 <article>
-                    <?php
-					    $reqMembre = "SELECT * FROM membre";
+                                    <?php
+                                        $reqMembre = "SELECT * FROM membre";
 
-					    $resMembre = mysqli_query($ConnectDB, $reqMembre);
-                    ?>
-                    <h2>notre équipe</h2>
-                    <br>
-                    <h3>Directeur-Fondateur</h3>
-                    <br><?php
-					    foreach ($resMembre as $key => $value) {
-                            if($value['role'] == 1){ ?>
-                                <p><?php echo $value['name']; ?></p>
-                    <?php
-                        } }
-					?>
-                    <br>
-                    <h3>Directeur-Adjoint</h3>
-                    <br><?php
-					    foreach ($resMembre as $key => $value) {
-                            if($value['role'] == 2){ ?>
-                                <p><?php echo $value['name']; ?></p>
-                    <?php
-                        } }
-					?>
-                    <br>
-                    <h3>Chef de Projet</h3>
-                    <br><?php
-					    foreach ($resMembre as $key => $value) {
-                            if($value['role'] == 3){ ?>
-                                <p><?php echo $value['name']; ?></p>
-                    <?php
-                        } }
-					?>
-                    <br>
-                    <h3>Membres</h3>
-                    <br>
-                    <?php
-					    foreach ($resMembre as $key => $value) {
-                            if($value['role'] == 4){ ?>
-                                <p><?php echo $value['name']; ?></p>
-                    <?php
-                        } }
-					?>
-                    <br>
-                    <h3>Modérateur(ice)</h3>
-                    <br>
-                    <?php
-					    foreach ($resMembre as $key => $value) {
-                            if($value['role'] == 5){ ?>
-                                <p><?php echo $value['name']; ?></p>
-                    <?php
-                        } }
-					?>
-                </article>
+                                        $resMembre = mysqli_query($ConnectDB, $reqMembre);
+                                    ?>
+                                    <h2>notre équipe</h2>
+                                    <br>
+                                    <h3>Directeur-Fondateur</h3>
+                                    <br><?php
+                                        foreach ($resMembre as $key => $value) {
+                                            if($value['role'] == 1){ ?>
+                                                <p><?php echo $value['name']; ?></p>
+                                    <?php
+                                        } }
+                                    ?>
+                                    
+                                    <br>
+                                    <h3>Chef de Projet</h3>
+                                    <br><?php
+                                        foreach ($resMembre as $key => $value) {
+                                            if($value['role'] == 3){ ?>
+                                                <p><?php echo $value['name']; ?></p>
+                                    <?php
+                                        } }
+                                    ?>
+                                    <br>
+                                    <h3>Membres</h3>
+                                    <br>
+                                    <?php
+                                        foreach ($resMembre as $key => $value) {
+                                            if($value['role'] == 4){ ?>
+                                                <p><?php echo $value['name']; ?></p>
+                                    <?php
+                                        } }
+                                    ?>
+                                    <br>
+                                    <h3>Modérateur(ice)</h3>
+                                    <br>
+                                    <?php
+                                        foreach ($resMembre as $key => $value) {
+                                            if($value['role'] == 5){ ?>
+                                                <p><?php echo $value['name']; ?></p>
+                                    <?php
+                                        } }
+                                    ?>
+                                </article>
             </div>
         </section>
     </main>
