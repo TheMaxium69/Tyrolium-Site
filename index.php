@@ -211,15 +211,6 @@ include "/home/tyroliumfg/DB-tyroliumfguser.php";
                                     ?>
                                     
                                     <br>
-                                    <h3>Chef de Projet</h3>
-                                    <br><?php
-                                        foreach ($resMembre as $key => $value) {
-                                            if($value['role'] == 3){ ?>
-                                                <p><?php echo $value['name']; ?></p>
-                                    <?php
-                                        } }
-                                    ?>
-                                    <br>
                                     <h3>Membres</h3>
                                     <br>
                                     <?php
@@ -235,6 +226,15 @@ include "/home/tyroliumfg/DB-tyroliumfguser.php";
                                     <?php
                                         foreach ($resMembre as $key => $value) {
                                             if($value['role'] == 5){ ?>
+                                                <p><?php echo $value['name']; ?></p>
+                                    <?php
+                                        } }
+                                    ?>
+                                    <br>
+                                    <h3>Assistant(e)</h3>
+                                    <br><?php
+                                        foreach ($resMembre as $key => $value) {
+                                            if($value['role'] == 6){ ?>
                                                 <p><?php echo $value['name']; ?></p>
                                     <?php
                                         } }
