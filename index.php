@@ -4,10 +4,20 @@ include "/home/tyroliumfg/DB-tyroliumfguser.php";
 <!doctype html>
 <html lang="fr">
 <head>
+    <!-- Meta -->
     <meta charset="utf-8">
-        <title>Tyrolium Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="title" content="Tyrolium Site">
+    <meta name="description" content="Entreprise De Développement, Programmation Et D'High Tech. fondé par Maxime Tournier"/>
+    <meta property="og:title" content="Tyrolium Site"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://tyrolium.fr/"/>
+    <meta property="og:image" content="https://tyrolium.fr/Contenu/Image/Tyrolium.png"/>
+    <meta property="og:description" content="Entreprise De Développement, Programmation Et D'High Tech. fondé par Maxime Tournier"/>
+
+        <title>Tyrolium</title>
+            <!-- Link -->
             <link href="https://tyrolium.fr/Contenu/Image/Tyrolium Site.png" rel="shortcut icon">
-            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
             <link rel="preconnect" href="https://fonts.gstatic.com">
             <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -17,7 +27,7 @@ include "/home/tyroliumfg/DB-tyroliumfguser.php";
             <link rel="stylesheet" href="https://tyrolium.fr/Contenu/Css/Tyrolium/normalize.css">
             <link rel="stylesheet" href="https://tyrolium.fr/Contenu/Css/Tyrolium/base.css">
             <link rel="stylesheet" type="text/css" media="screen" href="https://tyrolium.fr/Contenu/Css/Tyrolium/styles.css">
-
+            
             <!-- Global site tag (gtag.js) - Google Analytics -->
             <script async src="https://www.googletagmanager.com/gtag/js?id=G-SX0VTCMSGD"></script>
             <script>
