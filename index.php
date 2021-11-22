@@ -130,8 +130,10 @@ include "/home/tyroliumfg/DB-tyroliumfguser.php";
                     <img class="logo" src="https://tyrolium.fr/Contenu/Image/Selemusium.png" alt="SelemusiumLogo">
                     <h2>Sélémusium</h2>
                     <p>Projet de création de musiques.</p>
-                    <small>Des prods en création déjà disponibles sur<br> notre Discord, et un site en développement.</small><br>
-                    <a href="https://www.instagram.com/selemusium/" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/> Allez sur notre Instagram</a><br>
+                    <small>Des prods en création déjà disponibles sur<br> notre Instagram et notre Soundcloud</small><br>
+                    <a href="http://selemusium.xyz/" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/> Allez sur le site</a><br>
+                    <a href="https://soundcloud.com/selemusium" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/soundcloud.png" alt="soundcloud"/></a>
+                    <a href="https://www.instagram.com/selemusium/" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/></a>
                     <a href="https://discord.gg/km8h5jHezt" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/></a>
                 </li>
 
