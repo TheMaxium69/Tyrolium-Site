@@ -1,5 +1,7 @@
-# SiteTyroliumEnt
-Le site officiel de Tyrolium
+# [OLD] SiteTyroliumEnt
+version plus supporter
+
+Le nouveau site officiel de Tyrolium > [![New Repo](https://img.shields.io/badge/NewRepo-TyroliumSite-3960ef?style=flat)](https://github.com/TheMaxium69/Tyrolium-Site-New)
 
 https://tyrolium.fr
 
